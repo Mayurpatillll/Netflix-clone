@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("/images/background-hd.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Montserrat;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90vw;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.menu img {
+    width: 210px;
+}
+
+#lang {
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 8px 20px;
+    background: none;
+    margin-right: 20px;
+    font-size: 15px;
+}
+
+#sign-in {
+    border: none;
+    font-size: 16px;
+    border-radius: 3px;
+    color: #fff;
+    padding: 8px 20px;
+    background-color: red;
+}
+
+.herocontent {
+    margin: 0 auto;
+    width: 50vw;
+    text-align: center;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.herocontent h1 {
+    font-size: 70px;
+}
+
+.herocontent h2 {
+    font-size: 30px;
+    margin: 15px 0px;
+}
+
+.herocontent p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.inputs {
+    display: flex;
+}
+
+input[type=email] {
+    text-align: start;
+    font-size: 18px;
+    padding: 20px 100px;
+    font-family: Montserrat;
+}
+
+#Get-started {
+    font-size: 30px;
+    border-radius: 3px;
+    color: #fff;
+    padding: 20px;
+    font-family: Montserrat;
+    background-color: red;
+}
+
+#Get-started:hover {
+    cursor: pointer;
+}
